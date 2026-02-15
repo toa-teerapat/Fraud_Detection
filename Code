@@ -2,7 +2,7 @@
 # 1. โหลดข้อมูลจาก Kaggle (ไม่ใช้ Google Drive)
 # ==============================
 
-# !pip install -U kagglehub[pandas-datasets]
+
 
 import kagglehub
 from kagglehub import KaggleDatasetAdapter
@@ -72,7 +72,6 @@ print(df_imbalanced['Class'].value_counts(normalize=True))
 # ==============================
 
 # กำหนดชื่อคอลัมน์เป้าหมาย (Target Variable)
-# ในโจทย์นี้ Class = 0 (ปกติ), 1 (ทุจริต)
 TARGET = 'Class'
 
 # แยก Feature (X)
